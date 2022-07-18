@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import MainButton from './components/MainButton/MainButton';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header />
+      <div className='app__container'>
+        <h1 className='app__container__title'>We are hiring!</h1>
+        <h2 className='app__container__subtitle'>THE ROAD IS YOUR SECOND HOME? JOIN US!</h2>
+        <Main />
+        <h1 className='app__container__titleSecond'>Or send all needed information directly to our HR department</h1>
+        <MainButton text={'APPLY NOW'} isArrow={true} />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,19 @@
+.button {
+  background: #ED1C24;
+  font-size: 18px;
+  color: #fff;
+  padding: 14px 23px;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-family: 'Orelega One';
+  margin: 0 auto;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button img {
+  margin: 0 0 0 20px;
+}

@@ -1,38 +1,30 @@
-.App {
+.app {
   text-align: center;
+  font-family: 'Orelega One';
+  margin: 0 0 120px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__container {
+  margin: 0 150px;
+}
+.app h1 {
+  color: #223066;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__container__title {
+  font-size: 60px;
+  font-weight: 400;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app__container__subtitle {
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 0.22em;
+  color: #7D7D7D;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__container__titleSecond {
+  font-size: 48px;
+  font-weight: 400;
 }
